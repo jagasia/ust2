@@ -1,0 +1,143 @@
+1) Which of the following is correct regarding user defined Annotations?
+
+interface
+@interface
+annotation
+@annotation
+
+2) Which of the following specifies that the annotation is available only source code?
+
+target
+retention
+documentation
+availability
+
+3) Which of the following SQL operators, is used to retrieve only specific columns of a table?
+
+PROJECTION
+SELECTION
+UNION
+PRODUCT
+
+4) Which of the following operators allow us to check if the outer query row is greater than the lowest of inner query?
+
+>ALL
+<ALL
+>ANY
+<ANY
+
+5) Which of the following is a scalar function?
+
+COUNT
+MIN
+MAX
+INSTR
+
+6) Which of the functions, return the lowest integer, bigger than the given number?
+
+LOW
+POW
+FLOOR
+CEIL
+
+7) You want to find when will be the next friday. Which of the following functions can be used?
+
+NEXT_FRIDAY
+NEXT_DAY
+LAST_FRIDAY
+LAST_DAY
+
+8) You want to find the department that spend more on the employee salary. Which of the following will be useful?
+
+GROUP BY
+ORDER BY
+SUM BY
+AVG BY
+
+9) You want to retrieve all the Records from Left side table and the matching records from Right side table. Which of the following will be useful?
+
+INNER JOIN
+CROSS JOIN
+LEFT OUTER JOIN
+RIGHT OUTER JOIN
+
+10) Which of the following is true regarding Indexes?
+
+Every foreign key will create a clustered index
+A table can have any number of clustered index
+There can be only one non-clustered index per table
+The records in the table are arranged in the order of clustered index
+
+11) Which of the following is true regarding Normalization?
+
+Normalization is done to merge multiple tables into a single table
+A table is said to be in first normal form, if every cell has precisely one data
+Normalization is done to introduce some amount of redundancy to speed up query
+A table is said to be second normal form, if every determinant is composite
+
+12) Which of the following is NOT a SOLID principle?
+
+Single Responsibility Principle
+Object Oriented Principle
+Liskov Substitution Principle
+Interface Seggregation Principle
+Dependency Inversion Principle
+
+13) Which of the following is FALSE about PLSQL?
+
+A procedure can have IN or OUT or IN OUT parameters
+A function can return multiple values using OUT parameters
+A procedure cannot be called from SELECT statement
+A plsql program can have declaration, if condition etc
+
+14) Which of the following interfaces cannot be implemented using Lambda?
+
+Comparable
+List
+Runnable
+Comparator
+
+15) An interface that does not have any abstract method is called as ...............
+
+Functional Interface
+Abstract Interface
+Marker Interface
+User Interface
+
+16) Which of the following cannot be done by Stream API?
+
+Filter
+Sort
+Grouping
+Updation
+
+17) Which of the following operators are used by the LIKE operator of SELECT query?
+
+? and _
+% and ?
+% and _
+* and _
+
+18) Which of the following is true about RDBMS operators?
+
+UNION produces the sum of two queries including duplicates
+INTERSECT produces all rows from first query and matching rows from second query
+MINUS products all rows that are common between 2 queries
+PRODUCT produces 25 records, if both queries produce 5 records each.
+
+19) What will be the output of the following PLSQL program?
+	BEGIN
+		SELECT * FROM HR.EMPLOYEES WHERE EMPLOYEE_ID=100;
+	END;
+
+Displays all rows of HR.EMPLOYEES table
+Error in the SELECT statement
+Runs successfully and does not print anything
+Error because, DECLARE statement is missing
+
+20) Which of the following is true regarding Index?
+
+Index is useful when DML statements are executed on the table
+Index will be helpful only when the indexed column is used in SELECT statements
+Index will be helpful only when the indexed columns in used in DML statements
+Index will slow down the SELECT statements
